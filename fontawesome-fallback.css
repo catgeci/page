@@ -1,0 +1,30 @@
+/* FontAwesome 图标后备方案 */
+/* 如果FontAwesome加载失败，使用Unicode字符 */
+
+.fa-github::before { content: "⚙"; }
+.fa-bilibili::before { content: "📺"; }
+.fa-envelope::before { content: "✉"; }
+.fa-qq::before { content: "💬"; }
+.fa-x-twitter::before { content: "🐦"; }
+.fa-blog::before { content: "📝"; }
+.fa-weixin::before { content: "💬"; }
+.fa-telegram::before { content: "✈"; }
+.fa-sun::before { content: "☀"; }
+.fa-moon::before { content: "🌙"; }
+.fa-location-dot::before { content: "📍"; }
+.fa-code::before { content: "💻"; }
+.fa-quote-left::before { content: "💭"; }
+.fa-star::before { content: "⭐"; }
+.fa-gamepad::before { content: "🎮"; }
+.fa-comments::before { content: "💬"; }
+
+/* 确保图标显示 */
+.fa-brands, .fa-solid {
+	font-family: "Font Awesome 6 Brands", "Font Awesome 6 Free", sans-serif;
+	font-weight: 900;
+	display: inline-block;
+	font-style: normal;
+	font-variant: normal;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+}
